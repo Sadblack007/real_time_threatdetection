@@ -1,0 +1,44 @@
+:root {
+  --bg-dark: #1A1D27;
+  --bg-card: #252836;
+  --bg-sidebar: #1F222F;
+  --text-main: #FFFFFF;
+  --text-muted: #8F92A1;
+  --cyan-accent: #00E3FF;
+  --red-alert: #FF4D4D;
+  --orange-warn: #FF9B00;
+  --font-family: 'Outfit', sans-serif;
+  --glass-border: rgba(255, 255, 255, 0.03);
+  --glass-bg: rgba(37, 40, 54, 0.6);
+  --glow-cyan: 0 0 10px rgba(0, 227, 255, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
